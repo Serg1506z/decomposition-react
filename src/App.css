@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.searchContainer{
+
+}
+
+.nav__list{
+ list-style: none;
+ display: flex;
+ color:#646cff;
+ gap: 15px;
+ margin-bottom: 7px;
+ font-weight: 500;
+}
+
+.searchContainer__input{
+  width: 600px;
+  height: 30px;
+}
+
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.BlockComponent{
+  width: 300px;
+  min-height: 200px;
+}
+
+.btn{
+  background: white;
+}
